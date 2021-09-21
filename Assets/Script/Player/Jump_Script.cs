@@ -27,9 +27,15 @@ public class Jump_Script : MonoBehaviour
 
     //　ジャンプボタンが押された場合
     public void Click()
-    {
-        //　ジャンプ力設定
-        Vector2 JunpingPower = new Vector2(speedX, speedY);
-        PS.Player.AddForce(JunpingPower);
+    {        
+        if(PS.jump_Flg == true)
+        {
+            //　ジャンプ力設定
+            Vector2 JunpingPower = new Vector2(speedX, speedY);
+            PS.Player.AddForce(JunpingPower);
+
+            //　ジャンプフラグをfalseに変更
+            PS.jump_Flg = false;
+        }
     }
 }
