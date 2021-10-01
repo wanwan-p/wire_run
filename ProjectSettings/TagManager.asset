@@ -3,7 +3,12 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - coin_1
+  - coin_5
+  - coin_10
+  - coin_20
+  - goal
   layers:
   - Default
   - TransparentFX
@@ -13,8 +18,8 @@ TagManager:
   - UI
   - Character
   - stage
-  - 
-  - 
+  - wire
+  - coin
   - 
   - 
   - 
@@ -44,11 +49,14 @@ TagManager:
   - name: background
     uniqueID: 3581628261
     locked: 0
+  - name: stage
+    uniqueID: 3282068629
+    locked: 0
   - name: Character
     uniqueID: 1487393857
     locked: 0
-  - name: stage
-    uniqueID: 3282068629
+  - name: coin
+    uniqueID: 1743586115
     locked: 0
   - name: UI
     uniqueID: 2892048203
