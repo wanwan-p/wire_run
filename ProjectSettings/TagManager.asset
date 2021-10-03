@@ -9,6 +9,7 @@ TagManager:
   - coin_10
   - coin_20
   - goal
+  - stageobj
   layers:
   - Default
   - TransparentFX

@@ -101,7 +101,7 @@ public class Player_Script : MonoBehaviour
         //空中ジャンプ後に地面についた場合、もしくはワイヤー状態になった場合
         if(Doublejump_able == false)
         {
-            if(getCollision() == true || WS.wire_Grab == true)
+            if(getGrand() == true || WS.wire_Grab == true)
             {
                 //空中ジャンプフラグをtrueにする
                 Doublejump_able = true;

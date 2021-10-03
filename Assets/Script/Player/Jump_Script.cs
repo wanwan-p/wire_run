@@ -52,8 +52,6 @@ public class Jump_Script : MonoBehaviour
 
     private void Update()
     {
-        //デバッグようにテキスト表示
-        DEBUG_text Dt1 = GameObject.Find("Debug_Text1").GetComponent<DEBUG_text>();
-        Dt1.textupdate(PS.Doublejump_able.ToString());
+        
     }
 }

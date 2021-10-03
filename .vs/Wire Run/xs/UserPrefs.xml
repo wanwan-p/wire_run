@@ -1,32 +1,31 @@
 ﻿<Properties StartupConfiguration="{DCD63FD8-72BE-1080-59CC-32E4868FF20A}|">
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Script/Player/Create_Wire_Script.cs">
     <Files>
-      <File FileName="Assets/Script/Player/Player_Script.cs" Line="113" Column="1" IsPinned="True" />
-      <File FileName="Assets/Script/Player/Jump_Script.cs" Line="49" Column="16" />
-      <File FileName="Assets/Script/skill/Skill_Buy_Script.cs" Line="79" Column="78" />
-      <File FileName="Assets/Script/PlayerPrefsKey/PlayerPrefsKey.cs" Line="10" Column="29" />
-      <File FileName="Assets/Script/Coin/Bonus_Coin_Text_Script.cs" Line="20" Column="100" />
-      <File FileName="Assets/Script/PlayerPrefsKey/Coin_Save_Script.cs" Line="19" Column="73" />
-      <File FileName="Assets/Script/Coin/Coinget_Script.cs" Line="29" Column="28" />
-      <File FileName="Assets/Script/Coin/Coin_print_Script.cs" />
-      <File FileName="Assets/Script/Player/Wire_Script.cs" Line="48" Column="1" />
-      <File FileName="Assets/Script/Player/Player_Anim.cs" Line="56" Column="15" />
-      <File FileName="Assets/Shapes2D/Editor/Shape.cs" />
-      <File FileName="Assets/Script/Transration/GameOverClear_Script.cs" Line="6" Column="34" />
-      <File FileName="Assets/Anz/NativeMessenger.cs" Line="59" Column="28" />
+      <File FileName="Assets/Script/Player/Player_Script.cs" Line="148" Column="17" IsPinned="True" />
+      <File FileName="Assets/Script/Player/G_Decapient_Script.cs" Line="7" Column="12" IsPinned="True" />
+      <File FileName="Assets/Script/Player/Player_Anim.cs" Line="95" Column="42" IsPinned="True" />
+      <File FileName="Assets/Script/PlayerPrefsKey/Coin_Save_Script.cs" Line="9" Column="23" />
+      <File FileName="Assets/Script/Player/Jump_Script.cs" Line="28" Column="42" />
+      <File FileName="Assets/Script/Transration/SceneChange_Script.cs" Line="1" Column="1" />
+      <File FileName="Assets/Script/Player/Wire_Script.cs" Line="56" Column="24" />
+      <File FileName="Assets/Script/Camera/Camera_position_Script.cs" Line="14" Column="24" />
+      <File FileName="Assets/Script/Camera/CametaController_Script.cs" Line="14" Column="6" />
+      <File FileName="Assets/Script/Transration/GameOverClear_Script.cs" Line="40" Column="1" />
+      <File FileName="Assets/Script/skill/Skill_Buy_Script.cs" Line="94" Column="36" />
+      <File FileName="Assets/Script/Coin/Coinget_Script.cs" Line="1" Column="1" />
+      <File FileName="Assets/Script/Player/Create_Wire_Script.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Wire Run" expanded="True">
             <Node name="Assets" expanded="True">
-              <Node name="Anz" expanded="True">
-                <Node name="Plugins" expanded="True" />
-              </Node>
               <Node name="Script" expanded="True">
+                <Node name="Camera" expanded="True" />
                 <Node name="Coin" expanded="True" />
+                <Node name="Debug" expanded="True" />
                 <Node name="Player" expanded="True">
-                  <Node name="Player_Script.cs" selected="True" />
+                  <Node name="Create_Wire_Script.cs" selected="True" />
                 </Node>
                 <Node name="PlayerPrefsKey" expanded="True" />
                 <Node name="skill" expanded="True" />
@@ -43,6 +42,16 @@
           <Value>now_coin_count</Value>
           <Value>global::UnityEngine.PlayerPrefs.GetInt(PPK, 0)</Value>
           <Value>PPK</Value>
+          <Value>pl</Value>
+          <Value>ca</Value>
+          <Value>clearflg</Value>
+          <Value>hit.collider </Value>
+          <Value>hit.collider.CompareTag("stageobj")</Value>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="Unity" expanded="True" selected="True" />
         </State>
       </Pad>
     </Pads>
@@ -51,9 +60,7 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="25c5fcea-82f7-41fc-8b7e-abfda50aa470" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore>
-      <Breakpoint file="/Users/higashikawa/Desktop/Unity/Wire Run/Assets/Script/Player/Player_Script.cs" relfile="Assets/Script/Player/Player_Script.cs" line="113" column="1" />
-    </BreakpointStore>
+    <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
 </Properties>
