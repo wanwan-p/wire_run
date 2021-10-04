@@ -59,6 +59,8 @@ public class Player_Script : MonoBehaviour
         now_scene = SceneManager.GetActiveScene().name;
         //スキルセット
         skill_set();
+
+        PlayerPrefs.SetInt(PlayerPrefsKey.grand_decapitate_able, 0);
     }
 
     // 常に実行

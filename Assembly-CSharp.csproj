@@ -72,6 +72,7 @@
     <Compile Include="Assets/Script/Player/Player_Script.cs" />
     <Compile Include="Assets/Script/skill/Skill_Buy_Script.cs" />
     <Compile Include="Assets/Shapes2D/Demos/Stress Test/Spawner.cs" />
+    <Compile Include="Assets/Script/Player/G_Decapient_Script.cs" />
     <Compile Include="Assets/Shapes2D/Demos/Simple Effect/EffectDemo.cs" />
     <Compile Include="Assets/Shapes2D/Demos/InputUtils.cs" />
     <Compile Include="Assets/Anz/NativeMessenger.cs" />
@@ -84,8 +85,9 @@
     <Compile Include="Assets/Script/Coin/Bonus_Coin_Text_Script.cs" />
     <Compile Include="Assets/Shapes2D/Demos/Flappy Shapes/Game.cs" />
     <Compile Include="Assets/Script/Camera/Camera_position_Script.cs" />
+    <Compile Include="Assets/Script/Enemy/Enemy_Death_Script.cs" />
     <Compile Include="Assets/Shapes2D/Scripts/PolyMap.cs" />
-    <Compile Include="Assets/Script/Player/G_Decapient_Script.cs" />
+    <Compile Include="Assets/Script/Enemy/Player_Death_Script.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets/Shapes2D/Shaders/Triangle.cginc" />

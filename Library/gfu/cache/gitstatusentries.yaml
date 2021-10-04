@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
-  lastUpdatedAtString: 2021-10-03T22:21:37.887+09:00
-  initializedAtString: 2021-10-03T12:34:54.359+09:00
+  lastUpdatedAtString: 2021-10-04T22:09:17.743+09:00
+  initializedAtString: 2021-10-04T16:22:49.102+09:00
   entries:
   - path: .gitignore
     fullPath: /Users/higashikawa/Desktop/Unity/Wire Run/.gitignore
@@ -31,6 +31,12 @@ MonoBehaviour:
   - path: .vs/Wire Run/xs/project-cache/Assembly-CSharp-Editor-Debug.json
     fullPath: /Users/higashikawa/Desktop/Unity/Wire Run/.vs/Wire Run/xs/project-cache/Assembly-CSharp-Editor-Debug.json
     projectPath: .vs/Wire Run/xs/project-cache/Assembly-CSharp-Editor-Debug.json
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: .vs/Wire Run/xs/project-cache/Assembly-CSharp-Editor-firstpass-Debug.json
+    fullPath: /Users/higashikawa/Desktop/Unity/Wire Run/.vs/Wire Run/xs/project-cache/Assembly-CSharp-Editor-firstpass-Debug.json
+    projectPath: .vs/Wire Run/xs/project-cache/Assembly-CSharp-Editor-firstpass-Debug.json
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -52,9 +58,9 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Assets/.DS_Store
-    fullPath: /Users/higashikawa/Desktop/Unity/Wire Run/Assets/.DS_Store
-    projectPath: Assets/.DS_Store
+  - path: Assembly-CSharp-Editor-firstpass.csproj
+    fullPath: /Users/higashikawa/Desktop/Unity/Wire Run/Assembly-CSharp-Editor-firstpass.csproj
+    projectPath: Assembly-CSharp-Editor-firstpass.csproj
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -136,15 +142,33 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Assets/picture/.DS_Store
-    fullPath: /Users/higashikawa/Desktop/Unity/Wire Run/Assets/picture/.DS_Store
-    projectPath: Assets/picture/.DS_Store
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: Assets/picture/animation.meta
     fullPath: /Users/higashikawa/Desktop/Unity/Wire Run/Assets/picture/animation.meta
     projectPath: Assets/picture/animation.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets/picture/animation/g_enemy.anim
+    fullPath: /Users/higashikawa/Desktop/Unity/Wire Run/Assets/picture/animation/g_enemy.anim
+    projectPath: Assets/picture/animation/g_enemy.anim
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets/picture/animation/g_enemy.anim.meta
+    fullPath: /Users/higashikawa/Desktop/Unity/Wire Run/Assets/picture/animation/g_enemy.anim.meta
+    projectPath: Assets/picture/animation/g_enemy.anim.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets/picture/animation/g_enemy_9_.controller
+    fullPath: /Users/higashikawa/Desktop/Unity/Wire Run/Assets/picture/animation/g_enemy_9_.controller
+    projectPath: Assets/picture/animation/g_enemy_9_.controller
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets/picture/animation/g_enemy_9_.controller.meta
+    fullPath: /Users/higashikawa/Desktop/Unity/Wire Run/Assets/picture/animation/g_enemy_9_.controller.meta
+    projectPath: Assets/picture/animation/g_enemy_9_.controller.meta
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -870,6 +894,18 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
+  - path: Assets/Prefab/g_enemy.prefab
+    fullPath: /Users/higashikawa/Desktop/Unity/Wire Run/Assets/Prefab/g_enemy.prefab
+    projectPath: Assets/Prefab/g_enemy.prefab
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets/Prefab/g_enemy.prefab.meta
+    fullPath: /Users/higashikawa/Desktop/Unity/Wire Run/Assets/Prefab/g_enemy.prefab.meta
+    projectPath: Assets/Prefab/g_enemy.prefab.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Assets/Prefab/goal_prefab.prefab
     fullPath: /Users/higashikawa/Desktop/Unity/Wire Run/Assets/Prefab/goal_prefab.prefab
     projectPath: Assets/Prefab/goal_prefab.prefab
@@ -1158,6 +1194,36 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
+  - path: Assets/Script/Enemy.meta
+    fullPath: /Users/higashikawa/Desktop/Unity/Wire Run/Assets/Script/Enemy.meta
+    projectPath: Assets/Script/Enemy.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets/Script/Enemy/Enemy_Death_Script.cs
+    fullPath: /Users/higashikawa/Desktop/Unity/Wire Run/Assets/Script/Enemy/Enemy_Death_Script.cs
+    projectPath: Assets/Script/Enemy/Enemy_Death_Script.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets/Script/Enemy/Enemy_Death_Script.cs.meta
+    fullPath: /Users/higashikawa/Desktop/Unity/Wire Run/Assets/Script/Enemy/Enemy_Death_Script.cs.meta
+    projectPath: Assets/Script/Enemy/Enemy_Death_Script.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets/Script/Enemy/Player_Death_Script.cs
+    fullPath: /Users/higashikawa/Desktop/Unity/Wire Run/Assets/Script/Enemy/Player_Death_Script.cs
+    projectPath: Assets/Script/Enemy/Player_Death_Script.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets/Script/Enemy/Player_Death_Script.cs.meta
+    fullPath: /Users/higashikawa/Desktop/Unity/Wire Run/Assets/Script/Enemy/Player_Death_Script.cs.meta
+    projectPath: Assets/Script/Enemy/Player_Death_Script.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Assets/Script/Player/Create_Wire_Script.cs
     fullPath: /Users/higashikawa/Desktop/Unity/Wire Run/Assets/Script/Player/Create_Wire_Script.cs
     projectPath: Assets/Script/Player/Create_Wire_Script.cs
@@ -1182,12 +1248,6 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Assets/Script/Player/Jump_Script.cs
-    fullPath: /Users/higashikawa/Desktop/Unity/Wire Run/Assets/Script/Player/Jump_Script.cs
-    projectPath: Assets/Script/Player/Jump_Script.cs
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: Assets/Script/Player/Player_Anim.cs
     fullPath: /Users/higashikawa/Desktop/Unity/Wire Run/Assets/Script/Player/Player_Anim.cs
     projectPath: Assets/Script/Player/Player_Anim.cs
@@ -1308,12 +1368,6 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library/AnnotationManager
-    fullPath: /Users/higashikawa/Desktop/Unity/Wire Run/Library/AnnotationManager
-    projectPath: Library/AnnotationManager
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: Library/ArtifactDB
     fullPath: /Users/higashikawa/Desktop/Unity/Wire Run/Library/ArtifactDB
     projectPath: Library/ArtifactDB
@@ -4038,12 +4092,6 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library/CurrentMaximizeLayout.dwlt
-    fullPath: /Users/higashikawa/Desktop/Unity/Wire Run/Library/CurrentMaximizeLayout.dwlt
-    projectPath: Library/CurrentMaximizeLayout.dwlt
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: Library/EditorInstance.json
     fullPath: /Users/higashikawa/Desktop/Unity/Wire Run/Library/EditorInstance.json
     projectPath: Library/EditorInstance.json
@@ -4122,12 +4170,6 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library/ShaderCache.db
-    fullPath: /Users/higashikawa/Desktop/Unity/Wire Run/Library/ShaderCache.db
-    projectPath: Library/ShaderCache.db
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: Library/ShaderCache/EditorEncounteredVariants
     fullPath: /Users/higashikawa/Desktop/Unity/Wire Run/Library/ShaderCache/EditorEncounteredVariants
     projectPath: Library/ShaderCache/EditorEncounteredVariants
@@ -4158,6 +4200,12 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
+  - path: Logs/ApiUpdaterCheck.txt
+    fullPath: /Users/higashikawa/Desktop/Unity/Wire Run/Logs/ApiUpdaterCheck.txt
+    projectPath: Logs/ApiUpdaterCheck.txt
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Logs/AssetImportWorker0.log
     fullPath: /Users/higashikawa/Desktop/Unity/Wire Run/Logs/AssetImportWorker0.log
     projectPath: Logs/AssetImportWorker0.log
@@ -4176,18 +4224,6 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Logs/shadercompiler-UnityShaderCompiler3.log
-    fullPath: /Users/higashikawa/Desktop/Unity/Wire Run/Logs/shadercompiler-UnityShaderCompiler3.log
-    projectPath: Logs/shadercompiler-UnityShaderCompiler3.log
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Logs/shadercompiler-UnityShaderCompiler7.log
-    fullPath: /Users/higashikawa/Desktop/Unity/Wire Run/Logs/shadercompiler-UnityShaderCompiler7.log
-    projectPath: Logs/shadercompiler-UnityShaderCompiler7.log
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: obj/Debug/Assembly-CSharp.csproj.AssemblyReference.cache
     fullPath: /Users/higashikawa/Desktop/Unity/Wire Run/obj/Debug/Assembly-CSharp.csproj.AssemblyReference.cache
     projectPath: obj/Debug/Assembly-CSharp.csproj.AssemblyReference.cache
@@ -4199,10 +4235,22 @@ MonoBehaviour:
     projectPath: obj/Debug/Assembly-CSharp-Editor.csproj.AssemblyReference.cache
     originalPath: 
     indexStatus: 0
-    workTreeStatus: 3
+    workTreeStatus: 5
   - path: obj/Debug/Assembly-CSharp-Editor-firstpass.csproj.AssemblyReference.cache
     fullPath: /Users/higashikawa/Desktop/Unity/Wire Run/obj/Debug/Assembly-CSharp-Editor-firstpass.csproj.AssemblyReference.cache
     projectPath: obj/Debug/Assembly-CSharp-Editor-firstpass.csproj.AssemblyReference.cache
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: ProjectSettings/EditorBuildSettings.asset
+    fullPath: /Users/higashikawa/Desktop/Unity/Wire Run/ProjectSettings/EditorBuildSettings.asset
+    projectPath: ProjectSettings/EditorBuildSettings.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: ProjectSettings/Physics2DSettings.asset
+    fullPath: /Users/higashikawa/Desktop/Unity/Wire Run/ProjectSettings/Physics2DSettings.asset
+    projectPath: ProjectSettings/Physics2DSettings.asset
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3

@@ -15,12 +15,18 @@ EditorBuildSettings:
     path: Assets/Scenes/skills_buy.unity
     guid: 5f623fd6d8fbf4124afaa356316d2bb9
   - enabled: 1
-    path: Assets/Scenes/stage1.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
-  - enabled: 1
     path: Assets/Scenes/gameover.unity
     guid: 4345e4929ff574556935e6d14d46ee80
   - enabled: 1
     path: Assets/Scenes/stageclear.unity
     guid: 7ed83544dcb19462e83bbda72fbb6af1
+  - enabled: 1
+    path: Assets/Scenes/stage1.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/stage2.unity
+    guid: 2ffb12f26fbf5468aa55802dcbc34cbd
+  - enabled: 1
+    path: Assets/Scenes/stage3.unity
+    guid: c3b0e9a97fb9f4508b4ae0d10febe296
   m_configObjects: {}

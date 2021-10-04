@@ -10,6 +10,8 @@ TagManager:
   - coin_20
   - goal
   - stageobj
+  - attack
+  - enemy
   layers:
   - Default
   - TransparentFX
@@ -21,8 +23,8 @@ TagManager:
   - stage
   - wire
   - coin
-  - 
-  - 
+  - weapons
+  - enemy
   - 
   - 
   - 
@@ -52,6 +54,12 @@ TagManager:
     locked: 0
   - name: stage
     uniqueID: 3282068629
+    locked: 0
+  - name: enemy
+    uniqueID: 3487002681
+    locked: 0
+  - name: weapons
+    uniqueID: 1842777769
     locked: 0
   - name: Character
     uniqueID: 1487393857
