@@ -59,8 +59,6 @@ public class Player_Script : MonoBehaviour
         now_scene = SceneManager.GetActiveScene().name;
         //スキルセット
         skill_set();
-
-        PlayerPrefs.SetInt(PlayerPrefsKey.grand_decapitate_able, 0);
     }
 
     // 常に実行
@@ -118,10 +116,6 @@ public class Player_Script : MonoBehaviour
         gd_able = skill_able(PlayerPrefsKey.grand_decapitate_able);
         //空中回転斬り
         ad_able = skill_able(PlayerPrefsKey.air_decapitate_able);
-        //透明化
-        t_able = skill_able(PlayerPrefsKey.transparent_able);
-        //バズーカ
-        b_able = skill_able(PlayerPrefsKey.bazooka_able);
         //ワイヤー距離増加
         wg_able = skill_able(PlayerPrefsKey.wire_gain_able);
         //ホバリング1
