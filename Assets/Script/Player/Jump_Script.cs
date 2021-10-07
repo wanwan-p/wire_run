@@ -27,7 +27,7 @@ public class Jump_Script : MonoBehaviour
         //地面にいるフラグ
         bool jumpable_grand = PS.getGrand();
         //ワイヤー状態フラウ
-        bool jumoable_wire = WS.wire_Grab;
+        bool jumoable_wire = Wire_Script.wire_Grab;
 
         //通常ジャンプ
         if (jumpable_grand == true || jumoable_wire == true)

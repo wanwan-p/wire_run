@@ -192,3 +192,43 @@ C# parse time         : 797ms
 candidates check time : 152ms
 console write time    : 1ms
 
+[api-updater (non-obsolete-error-filter)] 2021/10/06 13:28:50 : Starting /Users/higashikawa/Desktop/Unity/2020.3.18f1/Unity.app/Contents/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 338.12ms
+moved types parse time: 293ms
+candidates parse time : 15ms
+C# parse time         : 701ms
+candidates check time : 270ms
+console write time    : 2ms
+
+[api-updater (non-obsolete-error-filter)] 2021/10/06 19:25:47 : Starting /Users/higashikawa/Desktop/Unity/2020.3.18f1/Unity.app/Contents/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 254.796ms
+moved types parse time: 314ms
+candidates parse time : 10ms
+C# parse time         : 757ms
+candidates check time : 293ms
+console write time    : 1ms
+
+[api-updater (non-obsolete-error-filter)] 2021/10/06 19:30:10 : Starting /Users/higashikawa/Desktop/Unity/2020.3.18f1/Unity.app/Contents/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 226.404ms
+moved types parse time: 241ms
+candidates parse time : 61ms
+C# parse time         : 778ms
+candidates check time : 293ms
+console write time    : 1ms
+
+[api-updater (non-obsolete-error-filter)] 2021/10/06 20:16:51 : Starting /Users/higashikawa/Desktop/Unity/2020.3.18f1/Unity.app/Contents/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 217.66ms
+moved types parse time: 228ms
+candidates parse time : 17ms
+C# parse time         : 886ms
+candidates check time : 282ms
+console write time    : 1ms
+

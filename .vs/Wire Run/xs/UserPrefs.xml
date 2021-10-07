@@ -1,29 +1,37 @@
 ﻿<Properties StartupConfiguration="{DCD63FD8-72BE-1080-59CC-32E4868FF20A}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Script/Player/Wire_Script.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Anz/NativeMessenger.cs">
     <Files>
-      <File FileName="Assets/Script/Player/Player_Script.cs" Line="28" Column="31" IsPinned="True" />
+      <File FileName="Assets/Script/Player/Player_Script.cs" Line="66" Column="1" IsPinned="True" />
       <File FileName="Assets/Script/Enemy/Enemy_Death_Script.cs" Line="17" Column="40" IsPinned="True" />
-      <File FileName="Assets/Script/Player/G_Decapient_Script.cs" Line="4" Column="1" IsPinned="True" />
+      <File FileName="Assets/Script/Player/Player_Anim.cs" Line="173" Column="37" IsPinned="True" />
+      <File FileName="Assets/Script/Player/Hover_Script.cs" Line="100" Column="53" IsPinned="True" />
+      <File FileName="Assets/Script/Player/Wire_Script.cs" Line="60" Column="68" />
       <File FileName="Assets/Script/Enemy/Player_Death_Script.cs" Line="3" Column="19" />
-      <File FileName="Assets/Script/Player/Player_Anim.cs" Line="34" Column="41" />
-      <File FileName="Assets/Script/Transration/SceneChange_Script.cs" Line="1" Column="1" />
-      <File FileName="Assets/Script/Transration/GameOverClear_Script.cs" Line="67" Column="14" />
-      <File FileName="Assets/Script/PlayerPrefsKey/PlayerPrefsKey.cs" Line="18" Column="69" />
-      <File FileName="Assets/Script/skill/Skill_Buy_Script.cs" Line="135" Column="21" />
-      <File FileName="Assets/Script/Player/Wire_Script.cs" Line="36" Column="33" />
+      <File FileName="Assets/Script/Transration/SceneChange_Script.cs" />
+      <File FileName="Assets/Script/Transration/GameOverClear_Script.cs" />
+      <File FileName="Assets/Script/PlayerPrefsKey/PlayerPrefsKey.cs" />
+      <File FileName="Assets/Script/skill/Skill_Buy_Script.cs" />
+      <File FileName="Assets/Shapes2D/Demos/Flappy Shapes/Bird.cs" />
+      <File FileName="Assets/Script/Camera/Camera_position_Script.cs" />
+      <File FileName="Assets/Script/Coin/Coin_print_Script.cs" />
+      <File FileName="Assets/Script/Coin/Coinget_Script.cs" />
+      <File FileName="Assets/Script/Debug/DEBUG_movepanel.cs" />
+      <File FileName="Assets/Script/stage/Stage_Disp_Script.cs" />
+      <File FileName="Assets/Script/Player/Jump_Script.cs" Line="30" Column="1" />
+      <File FileName="Assets/Anz/NativeMessenger.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Wire Run" expanded="True">
             <Node name="Assets" expanded="True">
+              <Node name="Anz" expanded="True">
+                <Node name="Plugins" expanded="True" />
+                <Node name="NativeMessenger.cs" selected="True" />
+              </Node>
               <Node name="Script" expanded="True">
-                <Node name="Player" expanded="True">
-                  <Node name="Wire_Script.cs" selected="True" />
-                </Node>
-                <Node name="PlayerPrefsKey" expanded="True" />
-                <Node name="same_scale" expanded="True" />
-                <Node name="skill" expanded="True" />
+                <Node name="Enemy" expanded="True" />
+                <Node name="Player" expanded="True" />
               </Node>
             </Node>
           </Node>
@@ -37,6 +45,9 @@
           <Value>hit.collider </Value>
           <Value>hit.collider.CompareTag("stageobj")</Value>
           <Value>Player.velocity.y</Value>
+          <Value>slider</Value>
+          <Value>Time.deltaTime / 15</Value>
+          <Value>slider.value </Value>
         </State>
       </Pad>
       <Pad Id="MonoDevelop.UnitTesting.TestPad">
@@ -52,7 +63,6 @@
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
       <Breakpoint file="/Users/higashikawa/Desktop/Unity/Wire Run/Assets/Script/Player/G_Decapient_End_Script.cs" relfile="Assets/Script/Player/G_Decapient_End_Script.cs" line="10" column="1" />
-      <Breakpoint file="/Users/higashikawa/Desktop/Unity/Wire Run/Assets/Script/stage/Stage_Disp_Script.cs" relfile="Assets/Script/stage/Stage_Disp_Script.cs" line="58" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />

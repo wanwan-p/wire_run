@@ -10,8 +10,6 @@ public class Player_Script : MonoBehaviour
 
     //プレイヤーのリジットボディ
     public Rigidbody2D Player;
-    //ワイヤー
-    private Wire_Script WS;
     //空中ジャンプ可能フラグ(スキルを取得済か関係なし)
     public bool Doublejump_able = true;
     //地面のレイヤー(Unityのインスペクターでstageを設定している)
@@ -24,10 +22,6 @@ public class Player_Script : MonoBehaviour
     public static bool gd_able;
     //空中回転斬り
     public static bool ad_able;
-    //透明化
-    public static bool t_able;
-    //バズーカ
-    public static bool b_able;
     //ワイヤー距離増加
     public static bool wg_able;
     //ホバリング1
@@ -53,8 +47,6 @@ public class Player_Script : MonoBehaviour
     {
         //プレイヤーのリジットボディを設定
         Player = this.gameObject.GetComponent<Rigidbody2D>();
-        //  ワイヤーのコンポーネントを設定
-        WS = GameObject.Find("Button_Wire").GetComponent<Wire_Script>();
         //今のシーン
         now_scene = SceneManager.GetActiveScene().name;
         //スキルセット
@@ -66,7 +58,7 @@ public class Player_Script : MonoBehaviour
     {
         //キャラクターを右に移動
         //ワイヤー状態でない場合
-        if(WS.wire_Grab == false)
+        if(Wire_Script.wire_Grab == false)
         {
             //y方向への速さは保持
             Vector2 move = new Vector2(Speed, Player.velocity.y);
@@ -101,7 +93,7 @@ public class Player_Script : MonoBehaviour
         //空中ジャンプ後に地面についた場合、もしくはワイヤー状態になった場合
         if(Doublejump_able == false)
         {
-            if(getGrand() == true || WS.wire_Grab == true)
+            if(getGrand() == true || Wire_Script.wire_Grab == true)
             {
                 //空中ジャンプフラグをtrueにする
                 Doublejump_able = true;
@@ -155,7 +147,7 @@ public class Player_Script : MonoBehaviour
     //ワイヤー状態の時z軸の回転を可能とする
     public void z_Freeze()
     {
-        if(WS.wire_Grab == true)
+        if(Wire_Script.wire_Grab == true)
         {
             Player.constraints = RigidbodyConstraints2D.None;
         }
