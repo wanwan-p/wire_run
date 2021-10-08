@@ -81,7 +81,6 @@
     <Compile Include="Assets/Script/Player/Decapient_Script.cs" />
     <Compile Include="Assets/Shapes2D/Demos/Simple Effect/EffectDemo.cs" />
     <Compile Include="Assets/Shapes2D/Demos/InputUtils.cs" />
-    <Compile Include="Assets/Anz/NativeMessenger.cs" />
     <Compile Include="Assets/Script/Debug/DEBUG_movepanel.cs" />
     <Compile Include="Assets/Script/Debug/DEBUG_text.cs" />
     <Compile Include="Assets/Script/Transration/Exit_Script.cs" />
@@ -93,6 +92,9 @@
     <Compile Include="Assets/Script/Camera/Camera_position_Script.cs" />
     <Compile Include="Assets/Script/Enemy/Enemy_Death_Script.cs" />
     <Compile Include="Assets/Shapes2D/Scripts/PolyMap.cs" />
+    <Compile Include="Assets/Script/skill/Skill_Buy_Popup_Script.cs" />
+    <Compile Include="Assets/Script/skill/skillname_Script.cs" />
+    <Compile Include="Assets/Script/skill/coment_Script.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets/Shapes2D/Shaders/Triangle.cginc" />
