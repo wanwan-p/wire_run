@@ -66,6 +66,7 @@
     <Compile Include="Assets/Shapes2D/Demos/Simple Effect/TapEffect.cs" />
     <Compile Include="Assets/Shapes2D/Scripts/Shapes2DPrefs.cs" />
     <Compile Include="Assets/Script/PlayerPrefsKey/Coin_Save_Script.cs" />
+    <Compile Include="Assets/Script/skill/coment_Script.cs" />
     <Compile Include="Assets/Script/stage/Stage_Disp_Script.cs" />
     <Compile Include="Assets/Shapes2D/Scripts/Shape.cs" />
     <Compile Include="Assets/Script/Player/Create_Wire_Script.cs" />
@@ -78,10 +79,12 @@
     <Compile Include="Assets/Script/Player/Player_Script.cs" />
     <Compile Include="Assets/Script/skill/Skill_Buy_Script.cs" />
     <Compile Include="Assets/Shapes2D/Demos/Stress Test/Spawner.cs" />
+    <Compile Include="Assets/Script/skill/skillname_Script.cs" />
     <Compile Include="Assets/Script/Player/Decapient_Script.cs" />
     <Compile Include="Assets/Shapes2D/Demos/Simple Effect/EffectDemo.cs" />
     <Compile Include="Assets/Shapes2D/Demos/InputUtils.cs" />
     <Compile Include="Assets/Script/Debug/DEBUG_movepanel.cs" />
+    <Compile Include="Assets/Script/skill/Skill_Buy_Popup_Script.cs" />
     <Compile Include="Assets/Script/Debug/DEBUG_text.cs" />
     <Compile Include="Assets/Script/Transration/Exit_Script.cs" />
     <Compile Include="Assets/Script/Transration/GameOverClear_Script.cs" />
@@ -92,9 +95,6 @@
     <Compile Include="Assets/Script/Camera/Camera_position_Script.cs" />
     <Compile Include="Assets/Script/Enemy/Enemy_Death_Script.cs" />
     <Compile Include="Assets/Shapes2D/Scripts/PolyMap.cs" />
-    <Compile Include="Assets/Script/skill/Skill_Buy_Popup_Script.cs" />
-    <Compile Include="Assets/Script/skill/skillname_Script.cs" />
-    <Compile Include="Assets/Script/skill/coment_Script.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets/Shapes2D/Shaders/Triangle.cginc" />

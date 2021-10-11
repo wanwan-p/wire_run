@@ -1,22 +1,25 @@
 ﻿<Properties StartupConfiguration="{DCD63FD8-72BE-1080-59CC-32E4868FF20A}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Script/skill/Skill_Buy_Script.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Script/Player/Decapient_Script.cs">
     <Files>
-      <File FileName="Assets/Script/Player/Player_Script.cs" Line="66" Column="1" IsPinned="True" />
-      <File FileName="Assets/Script/Enemy/Enemy_Death_Script.cs" IsPinned="True" />
-      <File FileName="Assets/Script/Player/Player_Anim.cs" IsPinned="True" />
-      <File FileName="Assets/Script/Player/Hover_Script.cs" IsPinned="True" />
-      <File FileName="Assets/Script/skill/Skill_Buy_Popup_Script.cs" Line="21" Column="32" IsPinned="True" />
-      <File FileName="Assets/Script/skill/Skill_Buy_Script.cs" Line="91" Column="15" />
-      <File FileName="Assets/Script/Player/Wire_Script.cs" />
-      <File FileName="Assets/Script/Enemy/Player_Death_Script.cs" />
+      <File FileName="Assets/Script/Player/Player_Script.cs" Line="14" Column="32" IsPinned="True" />
+      <File FileName="Assets/Script/Enemy/Enemy_Death_Script.cs" Line="1" Column="1" IsPinned="True" />
+      <File FileName="Assets/Script/Player/Player_Anim.cs" Line="1" Column="1" IsPinned="True" />
+      <File FileName="Assets/Script/Player/Hover_Script.cs" Line="1" Column="1" IsPinned="True" />
+      <File FileName="Assets/Script/skill/Skill_Buy_Popup_Script.cs" Line="1" Column="1" IsPinned="True" />
+      <File FileName="Assets/Script/Player/Wire_Script.cs" Line="34" Column="1" IsPinned="True" />
+      <File FileName="Assets/Script/skill/Skill_Buy_Script.cs" Line="1" Column="1" />
+      <File FileName="Assets/Script/Enemy/Player_Death_Script.cs" Line="1" Column="1" />
       <File FileName="Assets/Script/Transration/SceneChange_Script.cs" />
-      <File FileName="Assets/Script/Transration/GameOverClear_Script.cs" />
+      <File FileName="Assets/Script/Transration/GameOverClear_Script.cs" Line="1" Column="1" />
       <File FileName="Assets/Script/Camera/Camera_position_Script.cs" />
       <File FileName="Assets/Script/Coin/Coin_print_Script.cs" />
       <File FileName="Assets/Script/Player/Jump_Script.cs" />
       <File FileName="Assets/Script/Player/Create_Wire_Script.cs" />
       <File FileName="Assets/Script/skill/skillname_Script.cs" />
       <File FileName="Assets/Script/skill/coment_Script.cs" />
+      <File FileName="Assets/Script/same_scale/RectScalerWithViewport.cs" />
+      <File FileName="Assets/Script/Camera/CametaController_Script.cs" />
+      <File FileName="Assets/Script/Player/Decapient_Script.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -24,40 +27,23 @@
           <Node name="Wire Run" expanded="True">
             <Node name="Assets" expanded="True">
               <Node name="Script" expanded="True">
+                <Node name="Camera" expanded="True" />
                 <Node name="Enemy" expanded="True" />
-                <Node name="Player" expanded="True" />
-                <Node name="skill" expanded="True">
-                  <Node name="Skill_Buy_Script.cs" selected="True" />
+                <Node name="Player" expanded="True">
+                  <Node name="Decapient_Script.cs" selected="True" />
                 </Node>
+                <Node name="skill" expanded="True" />
+                <Node name="Transration" expanded="True" />
               </Node>
             </Node>
           </Node>
-        </State>
-      </Pad>
-      <Pad Id="MonoDevelop.Debugger.WatchPad">
-        <State>
-          <Value>hit.collider.CompareTag("stageobj")</Value>
-          <Value>G_Decapient_Script.g_dec</Value>
-          <Value>hj2d</Value>
-          <Value>hit.collider </Value>
-          <Value>hit.collider.CompareTag("stageobj")</Value>
-          <Value>Player.velocity.y</Value>
-          <Value>slider</Value>
-          <Value>Time.deltaTime / 15</Value>
-          <Value>slider.value </Value>
-          <Value>GameObject.Find("Poopup_yes_no_Canvas/background_Panel/Panel/Skill_Text").GetComponent&lt;Text&gt;().text</Value>
-        </State>
-      </Pad>
-      <Pad Id="MonoDevelop.UnitTesting.TestPad">
-        <State name="__root__">
-          <Node name="Unity" expanded="True" selected="True" />
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="25c5fcea-82f7-41fc-8b7e-abfda50aa470" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="8e19948a-1f73-41af-aa3c-58c03b1f40a9" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
       <Breakpoint file="/Users/higashikawa/Desktop/Unity/Wire Run/Assets/Script/Player/G_Decapient_End_Script.cs" relfile="Assets/Script/Player/G_Decapient_End_Script.cs" line="10" column="1" />
