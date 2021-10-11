@@ -41,6 +41,9 @@ public class Jump_Script : MonoBehaviour
         //空中ジャンプ
         else if(PS.Doublejump_able == true && Player_Script.aj_able == true)
         {
+            //ext2をfalseに
+            GameOverClear_Script.stage2_ext = false;
+
             //　ジャンプ力設定
             Vector2 JunpingPower = new Vector2(PS.Player.velocity.x, speedY);
             PS.Player.velocity = JunpingPower;
