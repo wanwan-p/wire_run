@@ -1,21 +1,17 @@
 ﻿<Properties StartupConfiguration="{DCD63FD8-72BE-1080-59CC-32E4868FF20A}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Script/Transration/SceneChange_Script.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Script/Coin/Coin_print_Script.cs">
     <Files>
       <File FileName="Assets/Script/Player/Player_Script.cs" Line="124" Column="39" IsPinned="True" />
       <File FileName="Assets/Script/Transration/SceneChange_Script.cs" Line="54" Column="43" />
       <File FileName="Assets/Script/Player/Jump_Script.cs" />
-      <File FileName="Assets/Script/Transration/GameOverClear_Script.cs" />
-      <File FileName="Assets/Script/Player/Decapient_Script.cs" />
-      <File FileName="Assets/Script/stage/Stage_Disp_Script.cs" Line="185" Column="47" />
-      <File FileName="Assets/Script/skill/skillname_Script.cs" />
+      <File FileName="Assets/Script/Transration/GameOverClear_Script.cs" Line="90" Column="75" />
+      <File FileName="Assets/Script/Player/Decapient_Script.cs" Line="47" Column="38" />
+      <File FileName="Assets/Script/stage/Stage_Disp_Script.cs" Line="174" Column="47" />
       <File FileName="Assets/Script/skill/Skill_Buy_Script.cs" Line="174" Column="60" />
-      <File FileName="Assets/Script/PlayerPrefsKey/PlayerPrefsKey.cs" />
-      <File FileName="Assets/Script/skill/Skill_Buy_Popup_Script.cs" />
-      <File FileName="Assets/Script/Coin/Coinget_Script.cs" />
-      <File FileName="Assets/Script/Coin/Coin_print_Script.cs" />
-      <File FileName="Assets/Script/Coin/Bonus_Coin_Text_Script.cs" />
-      <File FileName="Assets/Script/PlayerPrefsKey/Coin_Save_Script.cs" />
-      <File FileName="Assets/Script/Player/Wire_Script.cs" Line="38" Column="13" />
+      <File FileName="Assets/Script/PlayerPrefsKey/PlayerPrefsKey.cs" Line="1" Column="1" />
+      <File FileName="Assets/Script/PlayerPrefsKey/Coin_Save_Script.cs" Line="1" Column="1" />
+      <File FileName="Assets/Script/Player/Wire_Script.cs" />
+      <File FileName="Assets/Script/Coin/Coin_print_Script.cs" Line="19" Column="9" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -23,12 +19,14 @@
           <Node name="Wire Run" expanded="True">
             <Node name="Assets" expanded="True">
               <Node name="Script" expanded="True">
+                <Node name="Coin" expanded="True">
+                  <Node name="Coin_print_Script.cs" selected="True" />
+                </Node>
                 <Node name="Player" expanded="True" />
+                <Node name="PlayerPrefsKey" expanded="True" />
                 <Node name="skill" expanded="True" />
                 <Node name="stage" expanded="True" />
-                <Node name="Transration" expanded="True">
-                  <Node name="SceneChange_Script.cs" selected="True" />
-                </Node>
+                <Node name="Transration" expanded="True" />
               </Node>
             </Node>
           </Node>
